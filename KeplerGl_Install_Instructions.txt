@@ -1,0 +1,30 @@
+#This is the steps on how to install Kepler.gl and then be able to run inside of Jupytr Notebook
+#These steps requires Anoconda to work, so please already have that installed.
+#First open up Anoconda, and launch "anaconda_prompt". 
+#In the terminal that launches, run the following command to install Kepler.gl
+
+conda install conda-forge::keplergl
+
+#Once that runs, you should get three done messages at the end to show a succesful install.
+#Following this, we need to install the extension so it works in Juptyr Notebook. 
+#So same deal as the last one, run the following command in that terminal
+
+conda install -c conda-forge jupyter_contrib_nbextensions
+
+#Again, should get the three done messages at the end. Now we need to enable it.
+#First validate it installed the Kepler extension with the following
+
+jupyter nbextension install --py --sys-prefix keplergl
+
+#Once you get a Validate okay, then it is installed properly. 
+#If it is not Validated, rerun the previous two commands in a new terminal to repair the instalation
+#If it is okay, simply just run the following to enable it
+
+jupyter nbextension enable --py --sys-prefix keplergl
+
+#Once you get the validate okay again, you can open up Juptyr notebook from Anaconda.
+#Make a new notebook, and run the following simple code to ensure it works and displays the map.
+
+from keplergl import KeplerGl
+map_1 = KeplerGl(height=700)
+map_1
