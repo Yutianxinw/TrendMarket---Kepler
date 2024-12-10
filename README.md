@@ -13,3 +13,4 @@ Seamless integration with modern web applications.
 
 # Instructions 
 - Using the keplerglinstruction file to check and download kepler.gl through your juypternotebook
+  KeplerGl_Install_Instructions.txt 
