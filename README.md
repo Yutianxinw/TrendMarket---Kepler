@@ -11,3 +11,5 @@ Compatibility with multiple data formats (CSV, JSON, GeoJSON, etc.).
 Customizable map styles and layers.
 Seamless integration with modern web applications.
 
+# Instructions 
+- Using the keplerglinstruction file to check and download kepler.gl through your juypternotebook
