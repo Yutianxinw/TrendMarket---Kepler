@@ -14,3 +14,9 @@ Seamless integration with modern web applications.
 # Instructions 
 - Using the keplerglinstruction file to check and download kepler.gl through your juypternotebook
   KeplerGl_Install_Instructions.txt 
+
+# Group Contact Information
+Mariel Gonzalez : gonz0923@umn.edu
+Charlotte Wang : wang9207@umn.edu
+Ujjwal Khanna : khann095@umn.edu
+Rahma Hassan : Hassa670@umn.edu
